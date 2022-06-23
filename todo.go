@@ -1,9 +1,9 @@
 package rest_api_to_do
 
 type TodoList struct {
-	Id          int    `json:"id,omitempty"`
-	Title       string `json:"title,omitempty"`
-	Description string `json:"description,omitempty"`
+	Id          int    `json:"id" db:"id"`
+	Title       string `json:"title" db:"title" binding:"required"`
+	Description string `json:"description" db:"description"`
 }
 
 type UsersList struct {
