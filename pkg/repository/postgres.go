@@ -10,7 +10,7 @@ const (
 	todoListsTable  = "todo_lists"
 	usersListsTable = "users_lists"
 	todoItemsTable  = "todo_items"
-	ListItemsTable  = "lists_items"
+	listsItemsTable = "lists_items"
 )
 
 type Config struct {

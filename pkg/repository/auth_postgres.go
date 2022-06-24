@@ -10,7 +10,7 @@ type AuthPostgres struct {
 	db *sqlx.DB
 }
 
-func NewAuthPostrgres(db *sqlx.DB) *AuthPostgres {
+func NewAuthPostgres(db *sqlx.DB) *AuthPostgres {
 	return &AuthPostgres{db: db}
 }
 
